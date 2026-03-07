@@ -1,0 +1,34 @@
+﻿[ERROR] COMPILATION ERROR : 
+[ERROR] /C:/Users/KIIT0001/Desktop/flowguard/src/test/java/com/flowguard/service/ApiKeyServiceTest.java:[37,20] incompatible types: long cannot be converted to java.util.UUID
+[ERROR] /C:/Users/KIIT0001/Desktop/flowguard/src/test/java/com/flowguard/service/ApiKeyServiceTest.java:[41,20] incompatible types: long cannot be converted to java.lang.Integer
+[ERROR] /C:/Users/KIIT0001/Desktop/flowguard/src/test/java/com/flowguard/filter/RateLimitFilterTest.java:[91,26] cannot find symbol
+[ERROR] /C:/Users/KIIT0001/Desktop/flowguard/src/test/java/com/flowguard/filter/RateLimitFilterTest.java:[126,26] cannot find symbol
+[ERROR] /C:/Users/KIIT0001/Desktop/flowguard/src/test/java/com/flowguard/controller/AuthControllerTest.java:[49,20] incompatible types: long cannot be converted to java.util.UUID
+[ERROR] /C:/Users/KIIT0001/Desktop/flowguard/src/test/java/com/flowguard/controller/AuthControllerTest.java:[51,26] cannot find symbol
+[ERROR] /C:/Users/KIIT0001/Desktop/flowguard/src/test/java/com/flowguard/controller/AuthControllerTest.java:[66,20] incompatible types: long cannot be converted to java.util.UUID
+[ERROR] /C:/Users/KIIT0001/Desktop/flowguard/src/test/java/com/flowguard/controller/AuthControllerTest.java:[68,26] cannot find symbol
+[INFO] 8 errors 
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:testCompile (default-testCompile) on project flowguard: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/KIIT0001/Desktop/flowguard/src/test/java/com/flowguard/service/ApiKeyServiceTest.java:[37,20] incompatible types: long cannot be converted to java.util.UUID
+[ERROR] /C:/Users/KIIT0001/Desktop/flowguard/src/test/java/com/flowguard/service/ApiKeyServiceTest.java:[41,20] incompatible types: long cannot be converted to java.lang.Integer
+[ERROR] /C:/Users/KIIT0001/Desktop/flowguard/src/test/java/com/flowguard/filter/RateLimitFilterTest.java:[91,26] cannot find symbol
+[ERROR]   symbol:   variable Role
+[ERROR]   location: class com.flowguard.model.User
+[ERROR] /C:/Users/KIIT0001/Desktop/flowguard/src/test/java/com/flowguard/filter/RateLimitFilterTest.java:[126,26] cannot find symbol
+[ERROR]   symbol:   variable Role
+[ERROR]   location: class com.flowguard.model.User
+[ERROR] /C:/Users/KIIT0001/Desktop/flowguard/src/test/java/com/flowguard/controller/AuthControllerTest.java:[49,20] incompatible types: long cannot be converted to java.util.UUID
+[ERROR] /C:/Users/KIIT0001/Desktop/flowguard/src/test/java/com/flowguard/controller/AuthControllerTest.java:[51,26] cannot find symbol
+[ERROR]   symbol:   variable Role
+[ERROR]   location: class com.flowguard.model.User
+[ERROR] /C:/Users/KIIT0001/Desktop/flowguard/src/test/java/com/flowguard/controller/AuthControllerTest.java:[66,20] incompatible types: long cannot be converted to java.util.UUID
+[ERROR] /C:/Users/KIIT0001/Desktop/flowguard/src/test/java/com/flowguard/controller/AuthControllerTest.java:[68,26] cannot find symbol
+[ERROR]   symbol:   variable Role
+[ERROR]   location: class com.flowguard.model.User
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

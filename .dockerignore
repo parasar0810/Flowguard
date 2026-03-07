@@ -1,0 +1,12 @@
+
+*.log
+*.bat
+*.md
+.git/
+.gitignore
+apache-maven-3.9.6/
+demo_key.json
+debug.log
+dashboard.html
+analytics.html
+admin.html

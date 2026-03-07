@@ -1,0 +1,35 @@
+# Build output
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# Maven
+apache-maven-*/
+maven.zip
+
+# Logs
+*.log
+
+# API key files (sensitive)
+*_key.json
+demo_key.json
+apikey.txt
+
+# Output files
+output.txt
+dashboard_stats.txt
+full_log.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker volumes
+docker_app.log

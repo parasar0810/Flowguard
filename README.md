@@ -17,6 +17,9 @@ FlowGuard is a high-performance, distributed rate-limiting and abuse detection m
 - **PostgreSQL**
 - **Docker Compose**
 
+## Tests
+`mvn test` runs 26 tests: the filter, services, API-key handling and an in-memory limiter, plus `RedisLuaScriptsIntegrationTest`, which runs the production Lua scripts against a real Redis. Set `REDIS_HOST`, for example by running `docker run -p 6379:6379 redis:7-alpine` and then `REDIS_HOST=localhost mvn test`. It checks that each algorithm allows exactly the limit, including when 200 concurrent requests hit one key (10 allowed, never more). CI runs it with a Redis service container.
+
 ## Setup & Running
 
 ### 1. Prerequisites
